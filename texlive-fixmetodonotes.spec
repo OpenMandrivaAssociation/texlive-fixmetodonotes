@@ -1,11 +1,11 @@
-# revision 27053
+# revision 27685
 # category Package
 # catalog-ctan /macros/latex/contrib/fixmetodonotes
-# catalog-date 2012-07-03 11:28:15 +0200
+# catalog-date 2012-09-17 18:38:18 +0200
 # catalog-license pd
-# catalog-version 0.1
+# catalog-version 0.2.1
 Name:		texlive-fixmetodonotes
-Version:	0.1
+Version:	0.2.1
 Release:	1
 Summary:	Add notes on document development
 Group:		Publishing
