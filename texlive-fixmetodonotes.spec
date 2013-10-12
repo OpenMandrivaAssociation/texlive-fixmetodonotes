@@ -1,11 +1,11 @@
-# revision 27053
+# revision 30168
 # category Package
 # catalog-ctan /macros/latex/contrib/fixmetodonotes
-# catalog-date 2012-07-03 11:28:15 +0200
+# catalog-date 2013-04-28 19:46:12 +0200
 # catalog-license pd
-# catalog-version 0.1
+# catalog-version 0.2.2
 Name:		texlive-fixmetodonotes
-Version:	0.1
+Version:	0.2.2
 Release:	1
 Summary:	Add notes on document development
 Group:		Publishing
@@ -51,11 +51,3 @@ appear.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 813488
-- Import texlive-fixmetodonotes
-- Import texlive-fixmetodonotes
-
