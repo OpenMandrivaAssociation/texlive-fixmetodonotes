@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-fixmetodonotes
 Version:	0.1
-Release:	1
+Release:	2
 Summary:	Add notes on document development
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fixmetodonotes
