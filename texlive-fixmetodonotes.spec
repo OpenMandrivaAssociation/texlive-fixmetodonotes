@@ -1,19 +1,13 @@
-# revision 30168
-# category Package
-# catalog-ctan /macros/latex/contrib/fixmetodonotes
-# catalog-date 2013-04-28 19:46:12 +0200
-# catalog-license pd
-# catalog-version 0.2.2
 Name:		texlive-fixmetodonotes
-Version:	0.2.2
-Release:	11
+Version:	30168
+Release:	1
 Summary:	Add notes on document development
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fixmetodonotes
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ outstanding notes, with links to the pages on which they
 appear.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +38,8 @@ appear.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
