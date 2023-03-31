@@ -1,6 +1,6 @@
 Name:		texlive-fixmetodonotes
 Version:	30168
-Release:	1
+Release:	2
 Summary:	Add notes on document development
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fixmetodonotes
