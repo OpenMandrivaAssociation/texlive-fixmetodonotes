@@ -3,7 +3,7 @@ Version:	30168
 Release:	2
 Summary:	Add notes on document development
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fixmetodonotes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fixmetodonotes
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fixmetodonotes.doc.r%{version}.tar.xz
